@@ -8,7 +8,7 @@ import android.os.Handler
 class LingoLabSplash : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_splash)
 
         //Tom (2023) demonstrates how to create a splash screen.
         //Using Handler to delay the intent by 3 seconds to the LingoLabMain activity.
